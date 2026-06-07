@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26AF02F3ECAFA72BEB29DA85 /* DictionaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591959908835A95793EFB9AB /* DictionaryModels.swift */; };
+		FBCAF7EC9C89D6ECD0E1853B /* JishoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013D021ABBB04F067F816C63 /* JishoService.swift */; };
+		4368525F9C46614139DA47EB /* AnkiConnectService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F855CFFD7EBABDD15EB730D /* AnkiConnectService.swift */; };
+		EB6038432DF5288CD6A4B195 /* DictionaryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3646560B5F396392624B3B55 /* DictionaryManager.swift */; };
+		C8F9E63B615244D16E7FCA4F /* DictionaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7468F8BD285C0ACD8BF4764 /* DictionaryView.swift */; };
+		B87CA81FABB7DAABE2D943FE /* DictionarySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56A3A2B801535C1A3E618FD /* DictionarySettings.swift */; };
 		1100290C2E847E2800035A57 /* NSItemProvider+LoadHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1100290B2E847E2800035A57 /* NSItemProvider+LoadHelpers.swift */; };
 		110029272E84FD4C00035A57 /* TemporaryFileStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110029262E84FD4C00035A57 /* TemporaryFileStorageService.swift */; };
 		1100292A2E8691B400035A57 /* FileShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110029292E8691B400035A57 /* FileShareView.swift */; };
@@ -181,6 +187,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		591959908835A95793EFB9AB /* DictionaryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryModels.swift; sourceTree = "<group>"; };
+		013D021ABBB04F067F816C63 /* JishoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JishoService.swift; sourceTree = "<group>"; };
+		3F855CFFD7EBABDD15EB730D /* AnkiConnectService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnkiConnectService.swift; sourceTree = "<group>"; };
+		3646560B5F396392624B3B55 /* DictionaryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryManager.swift; sourceTree = "<group>"; };
+		D7468F8BD285C0ACD8BF4764 /* DictionaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryView.swift; sourceTree = "<group>"; };
+		E56A3A2B801535C1A3E618FD /* DictionarySettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionarySettings.swift; sourceTree = "<group>"; };
 		1100290B2E847E2800035A57 /* NSItemProvider+LoadHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSItemProvider+LoadHelpers.swift"; sourceTree = "<group>"; };
 		110029262E84FD4C00035A57 /* TemporaryFileStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporaryFileStorageService.swift; sourceTree = "<group>"; };
 		110029292E8691B400035A57 /* FileShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileShareView.swift; sourceTree = "<group>"; };
@@ -510,6 +522,9 @@
 		147163B52C5D804B0068B555 /* managers */ = {
 			isa = PBXGroup;
 			children = (
+				3646560B5F396392624B3B55 /* DictionaryManager.swift */,
+				3F855CFFD7EBABDD15EB730D /* AnkiConnectService.swift */,
+				013D021ABBB04F067F816C63 /* JishoService.swift */,
 				11D58EA12E760AE100FA8377 /* ImageService.swift */,
 				F38DE6472D8243E2008B5C6D /* BatteryActivityManager.swift */,
 				112FB7342CCF16F70015238C /* NotchSpaceManager.swift */,
@@ -626,6 +641,7 @@
 		14D570C72C5F38760011E668 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				591959908835A95793EFB9AB /* DictionaryModels.swift */,
 				11F748812ECB07A400F841DB /* MusicControlButton.swift */,
 				118D1FD02E98FF5F00A2FF63 /* SharingStateManager.swift */,
 				1163988E2DF5CC870052E6AF /* CalendarModel.swift */,
@@ -704,6 +720,7 @@
 		B186542F2C6F455E000B926A /* Notch */ = {
 			isa = PBXGroup;
 			children = (
+				D7468F8BD285C0ACD8BF4764 /* DictionaryView.swift */,
 				1194E8862EA6DDA7009C82D6 /* BoringNotchSkyLightWindow.swift */,
 				1160F8D72DD98230006FBB94 /* NotchShape.swift */,
 				9AB0C6BB2C73C9CB00F7CD30 /* NotchHomeView.swift */,
@@ -717,6 +734,7 @@
 		B18654302C6F4590000B926A /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				E56A3A2B801535C1A3E618FD /* DictionarySettings.swift */,
 				11F748832ECB27DC00F841DB /* MusicSlotConfigurationView.swift */,
 				11C5E3152DFE88510065821E /* SettingsView.swift */,
 				11C5E3112DFE85970065821E /* SettingsWindowController.swift */,
@@ -986,6 +1004,12 @@
 				507266DB2C908E2E00A2D00D /* HoverButton.swift in Sources */,
 				1471A8592C6281BD0058408D /* BoringNotchWindow.swift in Sources */,
 				14CEF4182C5CAED300855D72 /* ContentView.swift in Sources */,
+				26AF02F3ECAFA72BEB29DA85 /* DictionaryModels.swift in Sources */,
+				FBCAF7EC9C89D6ECD0E1853B /* JishoService.swift in Sources */,
+				4368525F9C46614139DA47EB /* AnkiConnectService.swift in Sources */,
+				EB6038432DF5288CD6A4B195 /* DictionaryManager.swift in Sources */,
+				C8F9E63B615244D16E7FCA4F /* DictionaryView.swift in Sources */,
+				B87CA81FABB7DAABE2D943FE /* DictionarySettings.swift in Sources */,
 				9A987A0D2C73CA66005CA465 /* ShelfView.swift in Sources */,
 				1132E5142E777B920068732D /* YouTubeMusicNetworking.swift in Sources */,
 				1132E5122E777B6E0068732D /* YouTubeMusicModels.swift in Sources */,

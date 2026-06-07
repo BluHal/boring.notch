@@ -199,4 +199,12 @@ extension Defaults.Keys {
     }
 
     static let didClearLegacyURLCacheV1 = Key<Bool>("didClearLegacyURLCache_v1", default: false)
+
+    // MARK: Dictionary
+    static let showDictionaryTab = Key<Bool>("showDictionaryTab", default: true)
+    static let ankiConnectURL = Key<String>("ankiConnectURL", default: "http://127.0.0.1:8765")
+    static let ankiDeckName = Key<String>("ankiDeckName", default: "Default")
+    static let ankiNoteType = Key<String>("ankiNoteType", default: "Basic")
+    static let ankiFrontField = Key<String>("ankiFrontField", default: "Front")
+    static let ankiBackField = Key<String>("ankiBackField", default: "Back")
 }

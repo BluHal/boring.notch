@@ -40,10 +40,15 @@ class BoringNotchWindow: NSPanel {
         hasShadow = false
     }
     
+    /// Enabled only while a view inside the notch needs keyboard input
+    /// (e.g. the dictionary search field). Off by default so the notch keeps
+    /// its non-key overlay behavior.
+    var allowsKeyInput = false
+
     override var canBecomeKey: Bool {
-        false
+        allowsKeyInput
     }
-    
+
     override var canBecomeMain: Bool {
         false
     }

@@ -27,6 +27,7 @@ public enum NotchState {
 public enum NotchViews {
     case home
     case shelf
+    case dictionary
 }
 
 enum SettingsEnum {

@@ -108,7 +108,12 @@ class BoringNotchSkyLightWindow: NSPanel {
     }
     
     private var observers: Set<AnyCancellable> = []
-    
-    override var canBecomeKey: Bool { false }
+
+    /// Enabled only while a view inside the notch needs keyboard input
+    /// (e.g. the dictionary search field). Off by default so the notch keeps
+    /// its non-key overlay behavior.
+    var allowsKeyInput = false
+
+    override var canBecomeKey: Bool { allowsKeyInput }
     override var canBecomeMain: Bool { false }
 }

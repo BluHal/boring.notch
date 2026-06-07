@@ -102,6 +102,17 @@ brew install --cask TheBoredTeam/boring-notch/boring-notch
 - Use the controls to manage your music like a rockstar.
 - Click the star in your menu bar to customize your notch to your heart's content.
 
+## 📖 Japanese Dictionary (fork addition)
+
+This fork adds a built-in Japanese dictionary tab to the open notch, powered by [Jisho](https://jisho.org).
+
+- Open the notch and switch to the **Dictionary** tab.
+- Type a kanji, word, or English term and press **Return** to search.
+- Results show the word, its reading, JLPT/common tags, and English meanings.
+- Press **Anki** on any entry to add it as a flashcard via [AnkiConnect](https://ankiweb.net/shared/info/2055492159).
+
+**Anki export requirements:** the Anki desktop app must be running with the AnkiConnect add-on installed. Configure the deck, note type, and field mapping under **Settings → Dictionary**, where you can also test the connection. The tab can be hidden from the same settings panel.
+
 ## 📋 Roadmap
 - [x] Playback live activity 🎧
 - [x] Calendar integration 📆
@@ -112,6 +123,7 @@ brew install --cask TheBoredTeam/boring-notch/boring-notch
 - [x] Shelf functionality with AirDrop 📚
 - [x] Notch sizing customization, finetuning on different display sizes 🖥️
 - [x] System HUD replacements (volume, brightness, backlight) 🎚️💡⌨️
+- [x] Japanese dictionary with Jisho + Anki export (fork) 📖
 - [ ] Bluetooth Live Activity (connect/disconnect for bluetooth devices) 
 - [ ] Weather integration ⛅️
 - [ ] Customizable Layout options 🛠️
